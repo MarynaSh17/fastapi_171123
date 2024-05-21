@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-171123"
+version = "0.1.0"
+description = "for portfolio"
+authors = ["Maryna Shovkova <marinka685m16@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.111.0"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
